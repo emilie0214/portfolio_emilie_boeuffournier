@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'LordLung';
+    src: url(elements/LordLung.otf);
+}
+
+@font-face{
+    font-family: 'ZTTalk';
+    src: url(elements/ZTTalk.otf);
+}
+
+body{
+    font-family: 'ZTTalk';
+    color: #c6a67b;
+    background-color: #1a1a1a;
+    font-size: 15pt;
+}
+
+h1{
+    font-family: 'lordlung';
+    font-weight: normal;
+    font-size: 80pt;
+}
+
+a{
+    text-decoration: none;
+    color: #c6a67b;
+}
+
+a:hover{
+    color: #c04e30;
+    transition: 0.5s;
+}
+
+.texte{
+    text-align: justify;
+    width: 75%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    padding-top: 15px;
+}
+
+img{
+    filter: drop-shadow(5px 5px 15px black);
+}
+
+#cta_home:hover{
+    color: #c04e30;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-row: 1fr;
+}
+
+#home{
+    width: 100%;
+    height: auto;
+    background-image: url(background1.jpg);
+    background-size: cover;
+    grid-column: 1/6;
+}
+
+.logo{
+    grid-column: 1/3;
+}
+
+#content{
+    grid
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#summary{
+    background-image: url(background2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+#content_summary{
+    padding: 100px;
+}
+
+li{
+    display: flex;
+    align-content: end;
+    flex-direction: column;
+}

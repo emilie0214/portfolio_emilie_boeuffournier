@@ -182,7 +182,7 @@ td{
     text-align: center;
     z-index: 1;
     position: absolute;
-    top: 2525px;
+    top: 2480px;
     padding: 30px;
     display: flex;
     align-items: end;
@@ -196,7 +196,7 @@ td{
     text-align: center;
     z-index: 1;
     position: absolute;
-    top: 3105px;
+    top: 3055px;
     padding: 30px;
     opacity: 0;
     font-size: 80%;
@@ -208,7 +208,7 @@ td{
     text-align: center;
     z-index: 1;
     position: absolute;
-    top: 3680px;
+    top: 3630px;
     padding: 30px;
     opacity: 0;
     font-size: 80%;
@@ -220,7 +220,7 @@ td{
     text-align: center;
     z-index: 1;
     position: absolute;
-    top: 4290px;
+    top: 4180px;
     padding: 30px;
     opacity: 0;
     font-size: 80%;

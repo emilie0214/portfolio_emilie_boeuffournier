@@ -15,6 +15,10 @@ body{
     font-size: 15pt;
 }
 
+section{
+    padding-top: 100px;
+}
+
 h1{
     font-family: 'lordlung';
     font-weight: normal;
@@ -26,14 +30,14 @@ a{
     color: #c6a67b;
 }
 
-a:hover{
-    color: #c04e30;
-    transition: 0.5s;
-}
 
 .texte{
     text-align: justify;
     width: 75%;
+}
+
+ul, li{
+    list-style-type: none;
 }
 
 header{
@@ -43,27 +47,39 @@ header{
     width: 100%;
     position: fixed;
     padding-top: 15px;
+    z-index: 1;
+}
+
+#cta_home{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#cta_home:hover{
+    filter: brightness(40%) saturate(800%);
+}
+
+hr{
+    width: 95%;
+    border-color: #c6a67b;
 }
 
 img{
     filter: drop-shadow(5px 5px 15px black);
 }
 
-#cta_home:hover{
-    color: #c04e30;
-}
-
-section{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-row: 1fr;
-}
-
 #home{
     width: 100%;
     height: auto;
     background-image: url(background1.jpg);
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-row: 1fr;
     grid-column: 1/6;
 }
 
@@ -71,14 +87,30 @@ section{
     grid-column: 1/3;
 }
 
-#content{
-    grid
+.content{
+    grid-column: 3/6;
 }
 
-nav{
+#options{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+#menu1{
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+#list1{
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#list1:hover{
+    filter: brightness(40%) saturate(800%);
 }
 
 #summary{
@@ -86,14 +118,150 @@ nav{
     background-size: cover;
     width: 100%;
     height: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-row: 1fr;
+    grid: 1/6;
 }
 
 #content_summary{
     padding: 100px;
+    grid-column: 1/6;
 }
 
-li{
+#list2{
+    margin: 0;
     display: flex;
-    align-content: end;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    grid-column: 3/6;
+}
+
+b{
+    margin-right: 10px;
+}
+
+#list2:hover{
+    filter: brightness(40%) saturate(800%);
+}
+
+#projets_personnels{
+    width: 100%;
+    height: auto;
+    background-image: url(background1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.titles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 100px;
+    
+}
+
+#partie{
+    padding-left: 50px;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+}
+
+td{
+    padding: 35px;
+}
+
+#gallery{
+    width: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    border-spacing: 50px;
+    z-index: -1;
+}
+
+#desc_annie, #desc_berthy, #desc_porco{
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 2325px;
+    padding-bottom: 30px;
+    padding-right: 5px;
+    display: flex;
+    align-items: end;
+    opacity: 0;
+    font-size: 80%;
+}
+
+#desc_reiner, #desc_vivian, #desc_october{
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 2900px;
+    padding-bottom: 30px;
+    padding-right: 36px;
+    padding-left: 36px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    opacity: 0;
+    font-size: 80%;
+}
+
+#desc_tattoo1, #desc_tattoo2, #desc_tattoo3{
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 3465px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    align-items: end;
+    opacity: 0;
+    font-size: 80%;
+}
+
+#desc_dessin1, #desc_dessin2, #desc_dessin3{
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 4050px;
+    padding-bottom: 30px;
+    padding-right: 36px;
+    padding-left: 36px;
+    display: flex;
+    align-items: end;
+    opacity: 0;
+    font-size: 80%;
+}
+
+#desc_annie:hover, #desc_berthy:hover, #desc_porco:hover, #desc_reiner:hover, #desc_vivian:hover, #desc_tattoo1:hover, #desc_tattoo2:hover, #desc_tattoo3:hover, #desc_october:hover, #desc_dessin1:hover, #desc_dessin2:hover, #desc_dessin3:hover{
+    opacity: 1;
+    transition: 0.5s;
+    background-color: #1a1a1a;
+    background-blend-mode: darken;
+}
+
+
+#menu3{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+}
+
+#menu3:hover{
+    filter: brightness(40%) saturate(800%);
 }

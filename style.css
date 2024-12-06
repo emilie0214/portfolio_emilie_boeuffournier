@@ -203,7 +203,7 @@ td{
     background-color: #1a1a1a;
 }
 
-#desc_tattoo1, #desc_tattoo2, #desc_tattoo3{
+#desc_ornament, #desc_tattoo2, #desc_tattoo3{
     width: 300px;
     text-align: center;
     z-index: 1;
@@ -239,7 +239,7 @@ td{
     background-color: #1a1a1a;
 }
 
-#desc_annie:hover, #desc_berthy:hover, #desc_porco:hover, #desc_reiner:hover, #desc_vivian:hover, #desc_tattoo1:hover, #desc_tattoo2:hover, #desc_tattoo3:hover, #desc_october:hover, #desc_dessin1:hover, #desc_dessin2:hover, #desc_dessin3:hover, #desc_reivi:hover, #desc_rei2:hover, #desc_reiaff:hover{
+#desc_annie:hover, #desc_berthy:hover, #desc_porco:hover, #desc_reiner:hover, #desc_vivian:hover, #desc_ornament:hover, #desc_tattoo2:hover, #desc_tattoo3:hover, #desc_october:hover, #desc_dessin1:hover, #desc_dessin2:hover, #desc_dessin3:hover, #desc_reivi:hover, #desc_rei2:hover, #desc_reiaff:hover{
     opacity: 1;
     transition: 0.5s;
 }
@@ -251,6 +251,6 @@ td{
     padding-left: 0;
 }
 
-#menu3:hover{
+#list3:hover{
     filter: brightness(40%) saturate(800%);
 }

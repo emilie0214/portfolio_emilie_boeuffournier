@@ -178,7 +178,7 @@ td{
 }
 
 #desc_annie, #desc_berthy, #desc_porco{
-    width: 350px;
+    width: 284px;
     text-align: center;
     z-index: 1;
     position: absolute;
@@ -191,8 +191,20 @@ td{
     background-color: #1a1a1a;
 }
 
-#desc_reiner, #desc_vivian, #desc_october{
-    width: 350px;
+#desc_reiner, #desc_vivian{
+    width: 316px;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 3055px;
+    padding: 35px;
+    opacity: 0;
+    font-size: 80%;
+    background-color: #1a1a1a;
+}
+
+#desc_october{
+    width: 212px;
     text-align: center;
     z-index: 1;
     position: absolute;
@@ -204,7 +216,7 @@ td{
 }
 
 #desc_ornament, #desc_tattoo2, #desc_tattoo3{
-    width: 300px;
+    width: 275px;
     text-align: center;
     z-index: 1;
     position: absolute;
@@ -216,7 +228,7 @@ td{
 }
 
 #desc_dessin1, #desc_dessin2, #desc_dessin3{
-    width: 300px;
+    width: 250px;
     text-align: center;
     z-index: 1;
     position: absolute;
@@ -244,6 +256,16 @@ td{
     transition: 0.5s;
 }
 
+#contact{
+    width: 100%;
+    height: auto;
+    background-image: url(background1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column: 1/6;
+}
 
 #menu3{
     display: flex;

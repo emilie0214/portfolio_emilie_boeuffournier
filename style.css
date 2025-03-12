@@ -177,8 +177,7 @@ td{
     z-index: -1;
 }
 
-#desc_annie, #desc_berthy, #desc_porco{
-    width: 284px;
+#desc_marco, #desc_reivin, #desc_yelena{
     text-align: center;
     z-index: 1;
     position: absolute;
@@ -191,67 +190,61 @@ td{
     background-color: #1a1a1a;
 }
 
-#desc_reiner, #desc_vivian{
-    width: 316px;
+#desc_marco{
+    width: 285px;
+}
+
+#desc_reivin, #desc_yelena{
+    width: 305px;
+}
+
+#desc_rhodium, #desc_porco, #desc_reiaff{
     text-align: center;
     z-index: 1;
     position: absolute;
-    top: 3055px;
+    top: 3050px;
     padding: 35px;
+    display: flex;
+    align-items: end;
     opacity: 0;
     font-size: 80%;
     background-color: #1a1a1a;
 }
 
-#desc_october{
-    width: 212px;
+#desc_rhodium, #desc_porco{
+    width: 284px;
+}
+
+#desc_reiaff{
+    width: 303px;
+}
+
+#desc_jan, #desc_tat, #desc_cover{
     text-align: center;
     z-index: 1;
     position: absolute;
-    top: 3055px;
+    top: 3650px;
     padding: 35px;
+    display: flex;
+    align-items: end;
     opacity: 0;
     font-size: 80%;
     background-color: #1a1a1a;
 }
 
-#desc_ornament, #desc_tattoo2, #desc_tattoo3{
-    width: 275px;
-    text-align: center;
-    z-index: 1;
-    position: absolute;
-    top: 3630px;
-    padding: 35px;
-    opacity: 0;
-    font-size: 80%;
-    background-color: #1a1a1a;
-}
-
-#desc_dessin1, #desc_dessin2, #desc_dessin3{
+#desc_cover{
     width: 250px;
-    text-align: center;
-    z-index: 1;
-    position: absolute;
-    top: 4180px;
-    padding: 35px;
-    opacity: 0;
-    font-size: 80%;
-    background-color: #1a1a1a;
 }
 
-#desc_reivi, #desc_rei2, #desc_reiaff{
-    width: 300px;
-    text-align: center;
-    z-index: 1;
-    position: absolute;
-    top: 4750px;
-    padding: 40px;
-    opacity: 0;
-    font-size: 80%;
-    background-color: #1a1a1a;
+#desc_tat{
+    width: 315px;
 }
 
-#desc_annie:hover, #desc_berthy:hover, #desc_porco:hover, #desc_reiner:hover, #desc_vivian:hover, #desc_ornament:hover, #desc_tattoo2:hover, #desc_tattoo3:hover, #desc_october:hover, #desc_dessin1:hover, #desc_dessin2:hover, #desc_dessin3:hover, #desc_reivi:hover, #desc_rei2:hover, #desc_reiaff:hover{
+#desc_jan{
+    width: 213px;
+}
+
+#desc_marco:hover, #desc_reivin:hover, #desc_yelena:hover, #desc_rhodium:hover, #desc_porco:hover, #desc_reiaff:hover, #desc_jan:hover, #desc_tat:hover, #desc_cover:hover{
     opacity: 1;
     transition: 0.5s;
 }
